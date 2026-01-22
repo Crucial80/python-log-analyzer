@@ -29,8 +29,14 @@ It analyzes Linux authentication logs to identify failed login attempts, success
 - Python 3
 - Regular Expressions
 - Linux authentication logs (auth.log)
+- ## Automation (Cron Job)
+To simulate SOC-style continuous monitoring, the log analyzer can be scheduled using a cron job.
 
----
+Example cron entry:
+*/5 * * * * python3 /path/to/python-log-analyzer/log_analyzer.py >> /path/to/output.log
+
+This allows the script to run periodically and automate log analysis without manual intervention.
+
 
 ## How It Works
 1. Reads authentication logs line by line
