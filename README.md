@@ -8,6 +8,11 @@ This project is a simple Python-based log analyzer designed to simulate SOC-styl
 It analyzes Linux authentication logs to identify failed login attempts, successful logins, and invalid user access attempts.
 
 ---
+## How to Run
+1. Clone the repo
+2. Place `auth.log` (or real Linux auth logs) in the project folder
+3. Run:
+
 
 ## Objectives
 - Understand Linux log formats
