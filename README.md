@@ -54,6 +54,11 @@ The analyzer reports events only when relevant authentication activity is presen
 This tool can help SOC analysts quickly identify brute-force attempts or suspicious login behavior during initial incident triage.
 
 ---
+## Live Execution Screenshot
+The following screenshot shows the Python log analyzer running on a Linux system and detecting authentication-related events from real log files.
+
+![Python Log Analyzer Output](screenshots/Script_Output.png)
+
 
 ## Disclaimer
 This project is created for educational and learning purposes only and was tested in controlled lab environments.
