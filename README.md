@@ -45,6 +45,10 @@ This allows the script to run periodically and automate log analysis without man
 4. Displays a summarized report
 
 ---
+## Log Source Note
+Different Linux distributions store authentication logs differently.
+This project was tested using both `/var/log/auth.log` and `journalctl` output.
+The analyzer reports events only when relevant authentication activity is present.
 
 ## Example Use Case
 This tool can help SOC analysts quickly identify brute-force attempts or suspicious login behavior during initial incident triage.
